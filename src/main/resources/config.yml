@@ -1,0 +1,46 @@
+#   ___ ___              _    ___      _ _
+#  | _ \ _ )_ _ ___ __ _| |__/ __| ___| | |
+# |  _/ _ \ '_/ -_) _` | / /\__ \/ -_) | | 1.0
+#|_| |___/_| \___\__,_|_\_\|___/\___|_|_|  Dinossauro Bugado#3333
+#
+# Obrigado por utilizar meu plugin! Deem sugestoes no meu discord.
+#
+
+# Configuracao dos blocos
+Blocks:
+  # Utilize '<id>;<data>'
+  '1;0':
+    # Valor do bloco (Money)
+    price: 10
+    # Comandos executados ao quebrar o bloco
+    # Utilize '<chance>;<comando>' (@player substui o nome do jogador)
+    commands:
+      - '1;give @player diamond'
+
+# Boosters
+Boosters:
+  # Id do booster
+  vip:
+    # Prefix que aparece na action bar
+    prefix: '&5&lVIP'
+    # Permissao para ativar ele
+    permission: 'boost.vip'
+    # Multiplicador para adicionar do valor final
+    boost: 0.5
+
+# Configuracao de formatacao
+Format:
+  #Barra de progresso
+  progress-bar:
+    completed: '&d'
+    not-completed: '&7'
+    bars: 10
+    symbol: '|'
+    format: '&8[@bar&8]'
+  # Prefixos da formatacao de valores
+  prefixes:
+    - ''
+    - 'K'
+    - 'KK'
+    - 'B'
+    - 'T'

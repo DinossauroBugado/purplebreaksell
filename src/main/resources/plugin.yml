@@ -1,0 +1,8 @@
+name: PurpleBreakSell
+author: Dinossauro Bugado#3333
+main: me.platinumdev.breaksell.PurpleBreakSell
+version: 1.0-SNAPSHOT
+depend:
+  - Vault
+softdepend:
+  - PlaceholderAPI
