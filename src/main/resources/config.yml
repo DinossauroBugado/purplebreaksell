@@ -6,6 +6,17 @@
 # Obrigado por utilizar meu plugin! Deem sugestoes no meu discord.
 #
 
+#
+Fortune-Multiplier:
+  bonus: 0.2
+  blocks:
+    - ''
+
+# Whitelist de mundos
+Worlds:
+  - 'world'
+  - 'mina'
+
 # Configuracao dos blocos
 Blocks:
   # Utilize '<id>;<data>'
@@ -15,7 +26,7 @@ Blocks:
     # Comandos executados ao quebrar o bloco
     # Utilize '<chance>;<comando>' (@player substui o nome do jogador)
     commands:
-      - '1;give @player diamond'
+      - '10;give @player diamond'
 
 # Boosters
 Boosters:

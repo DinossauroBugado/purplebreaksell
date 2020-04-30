@@ -11,6 +11,8 @@ public class PurpleBreakSell extends JavaPlugin {
     private ConfigUtils messages;
     private boolean debug;
 
+    // Oi cauan <3
+
     public void onEnable() {
         instance = this;
         loadAll();
